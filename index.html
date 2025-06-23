@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YUVA Clothing</title>
+  <style>
+    body { margin:0; font-family:sans-serif; background:#fff; color:#111; }
+    header { background:#000; color:#fff; padding:1rem; position:sticky; top:0; }
+    .logo { font-size:1.8rem; color:#3b82f6; font-weight:bold; }
+    nav a { color:#fff; margin:0 1rem; }
+    #hero { background:#000 url('https://via.placeholder.com/1600x800?text=YUVA+Collection') center/cover; height:70vh; display:flex; justify-content:center; align-items:center; color:#fff; text-align:center; }
+    #hero h1 { font-size:3rem; margin-bottom:0.5rem; }
+    #hero .btn { background:#3b82f6; padding:0.75rem 1.5rem; color:#fff; border-radius:4px; display:inline-block; margin-top:1rem; text-decoration:none; }
+    section { padding:3rem 2rem; max-width:1000px; margin:auto; }
+    .product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
+    .product-card { border:1px solid #eee; border-radius:8px; overflow:hidden; }
+    .product-card img { width:100%; }
+    .product-info { padding:1rem; text-align:center; }
+    footer { text-align:center; padding:2rem; background:#000; color:#fff; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="logo">YUVA</span>
+    <nav><a href="#hero">Home</a><a href="#products">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <div id="hero">
+    <div>
+      <h1>Welcome to YUVA</h1>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </div>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300?text=Boys+T-Shirt" alt="Boys T‑Shirt">
+        <div class="product-info"><h3>Boys T‑Shirt</h3></div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300?text=Girls+T-Shirt" alt="Girls T‑Shirt">
+        <div class="product-info"><h3>Girls T‑Shirt</h3></div>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300?text=Girls+Crop+Top" alt="Crop Top">
+        <div class="product-info"><h3>Girls Crop Top</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about"><h2>About YUVA</h2><p>Sporty, stylish, quality cotton tees with our signature blue-accent branding.</p></section>
+  
+  <section id="contact"><h2>Contact Us</h2><p>Email us at info@yuva.com</p></section>
+
+  <footer>&copy; 2025 YUVA Clothing</footer>
+
+</body>
+</html>
